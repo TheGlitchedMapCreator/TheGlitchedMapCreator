@@ -14,3 +14,15 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+
+## Meshy banana generator
+
+Run `generate_banana_meshy.py` with Python 3.10 or newer. It creates a textured banana model and saves it as `banana.glb` in the same folder.
+
+You can set the `MESHY_API_KEY` environment variable before running the script. If it is not set, the script asks for your key with hidden input. Keep API keys private and do not commit them to GitHub. For a second computer, a separate Meshy key makes usage easier to track and revoke independently.
+
+```powershell
+py -3 generate_banana_meshy.py
+```
+
+The script uses only Python's standard library.
